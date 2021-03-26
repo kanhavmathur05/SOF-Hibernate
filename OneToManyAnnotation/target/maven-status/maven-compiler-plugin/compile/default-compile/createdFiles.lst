@@ -1,0 +1,4 @@
+com/mdits/util/HibernateUtil.class
+com/mdits/model/Person.class
+com/mdits/db/Main.class
+com/mdits/model/Address.class

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.mdits.model">
+	<class name="Customer" table="Customer">
+		<id name="customerId" type="int">
+			<column name="Customer_Id"></column>
+			<generator class="increment"></generator>
+		</id>
+		<property name="name" column="Name"></property>
+		<property name="email" column="Email"></property>
+		<property name="mobileNo" type="long" column="Mobile_No"></property>
+
+		<set name="banks" table="Bank_Customer"
+			inverse="true" lazy="true" fetch="select">
+			<key column="Customer_Id" />
+			<many-to-many column="Bank_Id" class="Bank" />
+		</set>
+	</class>
+</hibernate-mapping>  
