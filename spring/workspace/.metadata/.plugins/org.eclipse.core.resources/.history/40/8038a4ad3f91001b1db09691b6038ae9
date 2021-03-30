@@ -1,0 +1,13 @@
+package com.aopaspectjbeforeex;
+
+public class Road {
+	
+	public void sb1() {
+		System.out.println("Speed Breaker 1");
+	}
+	
+	public int sb2() {
+		System.out.println("Speed Breaker 2");
+		return 2;
+	}
+}

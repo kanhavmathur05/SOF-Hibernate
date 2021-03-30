@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/home/kanhav/JavaProjects/spring/workspace/AopAspectJBeforeEx"/>
+			<item value="/home/kanhav/JavaProjects/spring/workspace/SetterInjectionWithMap/src/main/java/bean.xml"/>
+			<item value="/home/kanhav/JavaProjects/spring/workspace/SetterInjectionCollection"/>
+			<item value="/home/kanhav/JavaProjects/spring/workspace/ConstructorDI/src/main/java/beans.xml"/>
+			<item value="/home/kanhav/JavaProjects/spring/workspace/ConstructorDI"/>
+			<item value="/home/kanhav/JavaProjects/spring/workspace/Example1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="aopaspectjaroundxmlex"/>
+			<item value="aopaspectjbeforeex"/>
+			<item value="com.setterinjectionwithmap"/>
+			<item value="setterinjectioncollection"/>
+			<item value="com.setterdi"/>
+			<item value="com.constructordi"/>
+			<item value="com.springsampleex"/>
+		</list>
+		<list key="groupId">
+			<item value="aopaspectjaroundxmlex"/>
+			<item value="aopaspectjbeforeex"/>
+			<item value="setterinjectionwithmap"/>
+			<item value="setterinjectioncollection"/>
+			<item value="setterdi"/>
+			<item value="constructordi"/>
+			<item value="springsampleex"/>
+		</list>
+		<list key="artifactId">
+			<item value="AopAspectJAroundXmlEx"/>
+			<item value="AopAspectJBeforeEx"/>
+			<item value="SetterInjectionWithMap"/>
+			<item value="SetterInjectionCollection"/>
+			<item value="SetterDI"/>
+			<item value="ConstructorDI"/>
+			<item value="SpringSampleEx"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
